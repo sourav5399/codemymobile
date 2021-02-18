@@ -1,0 +1,10 @@
+server:
+  port: 8089
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/codemymobile
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
